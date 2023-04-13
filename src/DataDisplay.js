@@ -40,9 +40,3 @@ function DataDisplay(props) {
 }
 
 export default DataDisplay;
-
-// <div class="card-body overflow-scroll m-2" style="max-height: 15rem">
-//             <h3 class="card-title"><%= show.show.name %></h3>
-//             <p class="text-muted"><%- show.show.rating.average %></p>
-//             <p class="card-text"><%- show.show.summary %></p>
-//           </div>
