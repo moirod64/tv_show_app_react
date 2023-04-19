@@ -13,7 +13,7 @@ function DataDisplay(props) {
       ''
     );
   const regexForStripHTML = /(<([^>]+)>)/gi;
-
+  // To be  refactored
   return (
     <div className='container'>
       <div className='d-flex flex-wrap justify-content-around align-content-center'>
