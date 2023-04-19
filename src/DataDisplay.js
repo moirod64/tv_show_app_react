@@ -12,7 +12,6 @@ function DataDisplay(props) {
     ) : (
       ''
     );
-  // const regexForStripHTML = /<([^</> ]+)[^<>]*?>[^<>]*?<\/\1> */gi;
   const regexForStripHTML = /(<([^>]+)>)/gi;
 
   return (
